@@ -45,7 +45,7 @@ if(!empty($_POST)){
     if($mail->SMTPAuth){
     $mail->SMTPSecure = 'ssl';               //Protocole de sécurisation des échanges avec le SMTP
     $mail->Username   =  'clement.robine@sts-sio-caen.info';    //Adresse email à utiliser
-    $mail->Password   =  'Password';         //Mot de passe de l'adresse email à utiliser
+    $mail->Password   =  'Clement14';         //Mot de passe de l'adresse email à utiliser
     }
 
     $mail->From       = trim($_POST["mail"]);                //L'email à afficher pour l'envoi
